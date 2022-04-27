@@ -21,7 +21,6 @@
 * [Sets](guides/sets.md)
 * [Dictionaries](guides/dictionaries.md)
 * [Conditionals](guides/conditionals.md)
-* [Comparison](guides/comparison.md)
 * [Loops](guides/loops.md)
 * [Function](guides/function.md)
 * [Lambda](guides/lambda.md)
