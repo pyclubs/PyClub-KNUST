@@ -720,3 +720,5 @@ for x in list2:
 
 print(list1)
 ```
+
+Or you can use the `extend()` method, which purpose is to add elements from one list to another list:
