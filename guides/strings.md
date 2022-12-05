@@ -6,7 +6,7 @@ Strings in Python are identified as a contiguous set of characters represented i
 
 The plus (+) sign is the string concatenation operator and the asterisk (\*) is the repetition operator. For example-
 
-```
+```python
 // Example code
  str = 'Hello World!'
 print (str)          # Prints complete string
@@ -160,27 +160,50 @@ print("They said, \"What's going on?\"")
 
 
 
-| Escape Sequence | Description                | Example                                                                                                                                    |
-| --------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Escape Sequence | Description                | Example                                                                                                                                      |
+| --------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | \newline        | It ignores the new line.   | <pre><code>print("Python1 \
 Python2 \
-Python3")</code></pre><p><strong>Output:</strong></p><pre><code>Python1 Python2 Python3</code></pre> |
-| \\\\            | Backslash                  | <pre><code>print("\\")</code></pre><p><strong>Output:</strong></p><pre><code>\</code></pre>                                                |
-| \\'             | Single Quotes              | <pre><code>print('\'')</code></pre><p><strong>Output:</strong></p><pre><code>'</code></pre>                                                |
-| \\\\''          | Double Quotes              | <pre><code>print("\"")</code></pre><p><strong>Output:</strong></p><pre><code>"</code></pre>                                                |
-| \a              | ASCII Bell                 | <pre><code>print("\a")</code></pre>                                                                                                        |
-| \b              | ASCII Backspace(BS)        | <pre><code>print("Hello \b World")</code></pre><p><strong>Output:</strong></p><pre><code>Hello World</code></pre>                          |
+Python3")
+</code></pre><p><strong>Output:</strong></p><pre><code>Python1 Python2 Python3
+</code></pre> |
+| \\\\            | Backslash                  | <pre><code>print("\\")
+</code></pre><p><strong>Output:</strong></p><pre><code>\
+</code></pre>                                                |
+| \\'             | Single Quotes              | <pre><code>print('\'')
+</code></pre><p><strong>Output:</strong></p><pre><code>'
+</code></pre>                                                |
+| \\\\''          | Double Quotes              | <pre><code>print("\"")
+</code></pre><p><strong>Output:</strong></p><pre><code>"
+</code></pre>                                                |
+| \a              | ASCII Bell                 | <pre><code>print("\a")
+</code></pre>                                                                                                         |
+| \b              | ASCII Backspace(BS)        | <pre><code>print("Hello \b World")
+</code></pre><p><strong>Output:</strong></p><pre><code>Hello World
+</code></pre>                          |
 | \f              | ASCII Formfeed             | <pre><code>print("Hello \f World!")
-Hello  World!</code></pre>                                                                             |
-|                 | ASCII Linefeed             | <pre><code>print("Hello \n World!")</code></pre><p><strong>Output:</strong></p><pre><code>Hello
- World!</code></pre>                       |
-|                 | ASCII Carriege Return(CR)  | <pre><code>print("Hello \r World!")</code></pre><p><strong>Output:</strong></p><pre><code>World!</code></pre>                              |
-|                 | ASCII Horizontal Tab       | <pre><code>print("Hello \t World!")</code></pre><p><strong>Output:</strong></p><pre><code>Hello 	 World!</code></pre>                      |
-| \v              | ASCII Vertical Tab         | <pre><code>print("Hello \v World!")</code></pre><p><strong>Output:</strong></p><pre><code>Hello 
- World!</code></pre>                      |
+Hello  World!
+</code></pre>                                                                              |
+|                 | ASCII Linefeed             | <pre><code>print("Hello \n World!")
+</code></pre><p><strong>Output:</strong></p><pre><code>Hello
+ World!
+</code></pre>                       |
+|                 | ASCII Carriege Return(CR)  | <pre><code>print("Hello \r World!")
+</code></pre><p><strong>Output:</strong></p><pre><code>World!
+</code></pre>                              |
+|                 | ASCII Horizontal Tab       | <pre><code>print("Hello \t World!")
+</code></pre><p><strong>Output:</strong></p><pre><code>Hello 	 World!
+</code></pre>                      |
+| \v              | ASCII Vertical Tab         | <pre><code>print("Hello \v World!")
+</code></pre><p><strong>Output:</strong></p><pre><code>Hello 
+ World!
+</code></pre>                      |
 | \ooo            | Character with octal value | <pre><code>print("\110\145\154\154\157")Output:
-Hello</code></pre>                                                                         |
-| \xHH            | Character with hex value.  | <pre><code>print("\x48\x65\x6c\x6c\x6f")</code></pre><p><strong>Output:</strong></p><pre><code>Hello</code></pre>                          |
+Hello
+</code></pre>                                                                          |
+| \xHH            | Character with hex value.  | <pre><code>print("\x48\x65\x6c\x6c\x6f")
+</code></pre><p><strong>Output:</strong></p><pre><code>Hello
+</code></pre>                          |
 
 Here is the simple example of escape sequence.
 
@@ -219,7 +242,7 @@ Python allows us to use the format specifiers used in C's printf statement. The 
 
 Consider the following example.
 
-```
+```python
 // Some code
 Integer = 10;    
 Float = 1.290    
@@ -231,7 +254,7 @@ print("Hi I am Integer ... My value is %d\nHi I am float ... My value is %f\nHi 
 
 To get the length of a string, use the `len()` function.
 
-```
+```python
 // Example code
 #The len() function returns the length of a string:
 

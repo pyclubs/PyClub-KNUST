@@ -4,7 +4,7 @@ Variable is a name that is used to refer to memory location. Python variable is 
 
 In Python, we don't need to specify the type of variable because Python is a infer language and smart enough to get variable type.
 
-```
+```python
 // Example code
 number = 5
 name = "John"
@@ -44,7 +44,7 @@ We can apply multiple assignments in two ways, either by assigning a single valu
 
 **1. Assigning single value to multiple variables**
 
-```
+```python
 // Example code
 x=y=z=50    
 print(x)    
@@ -54,7 +54,7 @@ print(z)
 
 **2. Assigning multiple values to multiple variables:**
 
-```
+```python
 // Some code
 a,b,c=5,10,15    
 print a    
@@ -71,7 +71,7 @@ There are two types of variables in Python - Local variable and Global variable.
 Local variables are the variables that declared inside the function and have scope within the function. Let's understand the following example.\
 
 
-```
+```python
 // Example code
 # Declaring a function  
 def add():  
@@ -89,7 +89,7 @@ add()
 
 In the above code, we declared a function named **add()** and assigned a few variables within the function. These variables will be referred to as the **local variables** which have scope only inside the function. If we try to use them outside the function, we get a following error.
 
-```
+```python
 // Example code
 add()  
 # Accessing local variable outside the function   
@@ -104,7 +104,7 @@ Global variables can be used throughout the program, and its scope is in the ent
 
 A variable declared outside the function is the global variable by default. Python provides the **global** keyword to use global variable inside the function. If we don't use the **global** keyword, the function treats it as a local variable. Let's understand the following example.
 
-```
+```python
 // Example code
 # Declare a variable and initialize it  
 x = 101  
@@ -140,7 +140,7 @@ In the following example, we create a variable x and assign value to it. We dele
 
 **Example -**
 
-```
+```python
 // Example code
 # Assigning a value to x  
 x = 6  
@@ -156,7 +156,7 @@ Unlike the other programming languages, Python doesn't have long int or float da
 
 **Example -**
 
-```
+```python
 // Some code
 # A Python program to display that we can store  
 # large numbers in Python  
@@ -177,7 +177,7 @@ We can print multiple variables within the single print statement. Below are the
 
 **Example - 1 (Printing Single Variable)**
 
-```
+```python
 // Some code
 # printing single value   
 a = 5  
@@ -189,7 +189,7 @@ print((a))
 
 **Example - 2 (Printing Multiple Variables)**
 
-```
+```python
 // Some code
 a = 5
 b -t

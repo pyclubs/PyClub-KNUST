@@ -12,7 +12,7 @@ Python enables us to check the type of the variable used in the program. Python 
 
 Consider the following example to define the values of different data types and checking its type.
 
-```
+```python
 // Some code
 a=10  
 b="Hi Python"  
@@ -41,8 +41,12 @@ You can get the data type of any object by using the `type()` function:
 
 Print the data type of the variable x:
 
-`x = 5`\
-`print(type(x))`
+```python
+x = 5
+print(type(x))
+```
+
+``
 
 ### Setting the Specific Data Type
 
