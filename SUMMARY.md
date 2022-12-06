@@ -37,6 +37,7 @@
 * [RegEx](guides/regex.md)
 * [Pip](guides/pip.md)
 * [File Handling](guides/file-handling.md)
+* [Data Structures and Alogrithms](guides/data-structures-and-alogrithms.md)
 
 ## Fundamentals
 
