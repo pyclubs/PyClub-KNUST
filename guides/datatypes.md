@@ -46,7 +46,7 @@ x = 5
 print(type(x))
 ```
 
-``
+
 
 ### Setting the Specific Data Type
 
@@ -56,19 +56,4 @@ If you want to specify the data type, you can use the following constructor func
 
 If you want to specify the data type, you can use the following constructor functions:
 
-| Example                                      | Data Type  |   | Try it |
-| -------------------------------------------- | ---------- | - | ------ |
-| x = str("Hello World")                       | str        |   |        |
-| x = int(20)                                  | int        |   |        |
-| x = float(20.5)                              | float      |   |        |
-| x = complex(1j)                              | complex    |   |        |
-| x = list(("apple", "banana", "cherry"))      | list       |   |        |
-| x = tuple(("apple", "banana", "cherry"))     | tuple      |   |        |
-| x = range(6)                                 | range      |   |        |
-| x = dict(name="John", age=36)                | dict       |   |        |
-| x = set(("apple", "banana", "cherry"))       | set        |   |        |
-| x = frozenset(("apple", "banana", "cherry")) | frozense   |   |        |
-| x = bool(5)                                  | bool       |   |        |
-| x = bytes(5)                                 | bytes      |   |        |
-| x = bytearray(5)                             | bytearray  |   |        |
-| x = memoryview(bytes(5))                     | memoryview |   |        |
+<table><thead><tr><th width="491">Example</th><th width="552.3333333333333">Data Type</th><th></th><th>Try it</th></tr></thead><tbody><tr><td>x = str("Hello World")</td><td>str</td><td></td><td></td></tr><tr><td>x = int(20)</td><td>int</td><td></td><td></td></tr><tr><td>x = float(20.5)</td><td>float</td><td></td><td></td></tr><tr><td>x = complex(1j)</td><td>complex</td><td></td><td></td></tr><tr><td>x = list(("apple", "banana", "cherry"))</td><td>list</td><td></td><td></td></tr><tr><td>x = tuple(("apple", "banana", "cherry"))</td><td>tuple</td><td></td><td></td></tr><tr><td>x = range(6)</td><td>range</td><td></td><td></td></tr><tr><td>x = dict(name="John", age=36)</td><td>dict</td><td></td><td></td></tr><tr><td>x = set(("apple", "banana", "cherry"))</td><td>set</td><td></td><td></td></tr><tr><td>x = frozenset(("apple", "banana", "cherry"))</td><td>frozense</td><td></td><td></td></tr><tr><td>x = bool(5)</td><td>bool</td><td></td><td></td></tr><tr><td>x = bytes(5)</td><td>bytes</td><td></td><td></td></tr><tr><td>x = bytearray(5)</td><td>bytearray</td><td></td><td></td></tr><tr><td>x = memoryview(bytes(5))</td><td>memoryview</td><td></td><td></td></tr></tbody></table>

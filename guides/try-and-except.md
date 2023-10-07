@@ -10,7 +10,7 @@ The `else` block lets you execute code when there is no error.
 
 The `finally` block lets you execute code, regardless of the result of the try- and except blocks.
 
-***
+
 
 ### Exception Handling
 
@@ -110,7 +110,7 @@ except:
 
 The program can continue, without leaving the file object open.
 
-***
+
 
 ### Raise an exception
 

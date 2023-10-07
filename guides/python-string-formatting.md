@@ -2,7 +2,7 @@
 
 To make sure a string will display as expected, we can format the result with the `format()` method.
 
-***
+
 
 ### String format()
 
@@ -107,7 +107,7 @@ The placeholder is defined using curly brackets: {}. Read more about the placeho
 
 The `format()` method returns the formatted string.
 
-***
+
 
 ### Syntax
 
@@ -119,7 +119,7 @@ _string_.format(_value1, value2..._)
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _value1, value2..._ | <p>Required. One or more values that should be formatted and inserted in the string.<br><br>The values are either a list of values separated by commas, a key=value list, or a combination of both.<br><br>The values can be of any data type.</p> |
 
-***
+
 
 ### The Placeholders
 

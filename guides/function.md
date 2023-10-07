@@ -6,7 +6,7 @@ You can pass data, known as parameters, into a function.
 
 A function can return data as a result.
 
-***
+
 
 ### Creating a Function
 
@@ -92,7 +92,7 @@ def my_function(fname, lname):
 my_function("Emil")
 ```
 
-***
+
 
 ### Arbitrary Arguments, \*args
 
@@ -129,7 +129,7 @@ my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
 
 The phrase _Keyword Arguments_ are often shortened to _kwargs_ in Python documentations.
 
-***
+
 
 ### Arbitrary Keyword Arguments, \*\*kwargs
 
@@ -198,7 +198,7 @@ print(my_function(5))
 print(my_function(9))
 ```
 
-***
+
 
 ### The pass Statement
 

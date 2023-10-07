@@ -8,7 +8,7 @@ Inheritance allows us to define a class that inherits all the methods and proper
 
 **Child class** is the class that inherits from another class, also called derived class.
 
-***
+
 
 ### Create a Parent Class
 

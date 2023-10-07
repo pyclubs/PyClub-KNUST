@@ -29,7 +29,7 @@ If you add new items to a list, the new items will be placed at the end of the l
 
 The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.
 
-***
+
 
 ### Allow Duplicates
 

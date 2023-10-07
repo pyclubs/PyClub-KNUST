@@ -160,50 +160,36 @@ print("They said, \"What's going on?\"")
 
 
 
-| Escape Sequence | Description                | Example                                                                                                                                      |
-| --------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| \newline        | It ignores the new line.   | <pre><code>print("Python1 \
+<table><thead><tr><th width="155.33333333333331">Escape Sequence</th><th width="150">Description</th><th width="364.38775510204084">Example</th></tr></thead><tbody><tr><td>\newline</td><td>It ignores the new line.</td><td><pre><code>print("Python1 \
 Python2 \
 Python3")
 </code></pre><p><strong>Output:</strong></p><pre><code>Python1 Python2 Python3
-</code></pre> |
-| \\\\            | Backslash                  | <pre><code>print("\\")
+</code></pre></td></tr><tr><td>\\</td><td>Backslash</td><td><pre><code>print("\\")
 </code></pre><p><strong>Output:</strong></p><pre><code>\
-</code></pre>                                                |
-| \\'             | Single Quotes              | <pre><code>print('\'')
+</code></pre></td></tr><tr><td>\'</td><td>Single Quotes</td><td><pre><code>print('\'')
 </code></pre><p><strong>Output:</strong></p><pre><code>'
-</code></pre>                                                |
-| \\\\''          | Double Quotes              | <pre><code>print("\"")
+</code></pre></td></tr><tr><td>\\''</td><td>Double Quotes</td><td><pre><code>print("\"")
 </code></pre><p><strong>Output:</strong></p><pre><code>"
-</code></pre>                                                |
-| \a              | ASCII Bell                 | <pre><code>print("\a")
-</code></pre>                                                                                                         |
-| \b              | ASCII Backspace(BS)        | <pre><code>print("Hello \b World")
+</code></pre></td></tr><tr><td>\a</td><td>ASCII Bell</td><td><pre><code>print("\a")
+</code></pre></td></tr><tr><td>\b</td><td>ASCII Backspace(BS)</td><td><pre><code>print("Hello \b World")
 </code></pre><p><strong>Output:</strong></p><pre><code>Hello World
-</code></pre>                          |
-| \f              | ASCII Formfeed             | <pre><code>print("Hello \f World!")
+</code></pre></td></tr><tr><td>\f</td><td>ASCII Formfeed</td><td><pre><code>print("Hello \f World!")
 Hello  World!
-</code></pre>                                                                              |
-|                 | ASCII Linefeed             | <pre><code>print("Hello \n World!")
+</code></pre></td></tr><tr><td></td><td>ASCII Linefeed</td><td><pre><code>print("Hello \n World!")
 </code></pre><p><strong>Output:</strong></p><pre><code>Hello
  World!
-</code></pre>                       |
-|                 | ASCII Carriege Return(CR)  | <pre><code>print("Hello \r World!")
+</code></pre></td></tr><tr><td></td><td>ASCII Carriege Return(CR)</td><td><pre><code>print("Hello \r World!")
 </code></pre><p><strong>Output:</strong></p><pre><code>World!
-</code></pre>                              |
-|                 | ASCII Horizontal Tab       | <pre><code>print("Hello \t World!")
+</code></pre></td></tr><tr><td></td><td>ASCII Horizontal Tab</td><td><pre><code>print("Hello \t World!")
 </code></pre><p><strong>Output:</strong></p><pre><code>Hello 	 World!
-</code></pre>                      |
-| \v              | ASCII Vertical Tab         | <pre><code>print("Hello \v World!")
+</code></pre></td></tr><tr><td>\v</td><td>ASCII Vertical Tab</td><td><pre><code>print("Hello \v World!")
 </code></pre><p><strong>Output:</strong></p><pre><code>Hello 
  World!
-</code></pre>                      |
-| \ooo            | Character with octal value | <pre><code>print("\110\145\154\154\157")Output:
+</code></pre></td></tr><tr><td>\ooo</td><td>Character with octal value</td><td><pre><code>print("\110\145\154\154\157")Output:
 Hello
-</code></pre>                                                                          |
-| \xHH            | Character with hex value.  | <pre><code>print("\x48\x65\x6c\x6c\x6f")
+</code></pre></td></tr><tr><td>\xHH</td><td>Character with hex value.</td><td><pre><code>print("\x48\x65\x6c\x6c\x6f")
 </code></pre><p><strong>Output:</strong></p><pre><code>Hello
-</code></pre>                          |
+</code></pre></td></tr></tbody></table>
 
 Here is the simple example of escape sequence.
 

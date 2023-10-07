@@ -6,7 +6,7 @@ PIP is a package manager for Python packages, or modules if you like.
 
 **Note:** If you have Python version 3.4 or later, PIP is included by default.
 
-***
+
 
 ### What is a Package?
 
@@ -19,7 +19,7 @@ nstall PIP
 
 If you do not have PIP installed, you can download and install it from this page: [https://pypi.org/project/pip/](https://pypi.org/project/pip/)
 
-***
+
 
 ### Download a Package
 
@@ -37,9 +37,9 @@ Download a package named "camelcase":
 
 Now you have downloaded and installed your first package!
 
-***
 
-***
+
+
 
 ### Using a Package
 
@@ -64,7 +64,7 @@ print(c.hump(txt))
 
 Find more packages at [https://pypi.org/](https://pypi.org/).
 
-***
+
 
 ### Remove a Package
 

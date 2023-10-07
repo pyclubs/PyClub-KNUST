@@ -182,7 +182,7 @@ Delete the p1 object:
 del p1
 ```
 
-``
+
 
 ### The pass Statement
 
