@@ -27,7 +27,7 @@
 * [Function](guides/function.md)
 * [Arrays](guides/arrays.md)
 * [Try and Except](guides/try-and-except.md)
-* [Classes/Objects](guides/classes-objects.md)
+* [Classes and Objects](guides/classes-and-objects.md)
 * [Inheritance](guides/inheritance.md)
 * [Iterator and Generator](guides/iterator-and-generator.md)
 * [Scope](guides/scope.md)
