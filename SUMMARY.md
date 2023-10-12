@@ -29,6 +29,7 @@
 * [Try and Except](guides/try-and-except.md)
 * [Scope](guides/scope.md)
 * [Classes and Objects](guides/classes-objects.md)
+* [Class Methods and Properties](guides/class-methods-and-properties.md)
 * [Inheritance](guides/inheritance.md)
 * [Polymorphism](guides/polymorphism.md)
 * [Dunder Methods(Double Underscore Methods)](guides/dunder-methods-double-underscore-methods.md)
