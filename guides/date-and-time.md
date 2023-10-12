@@ -8,7 +8,7 @@ A date in Python is not a data type of its own, but we can import a module named
 
 Import the datetime module and display the current date:
 
-```
+```python
 import datetime
 
 x = datetime.datetime.now()
@@ -33,7 +33,7 @@ Return the year and name of weekday:
 
 
 
-```
+```python
 import datetime
 
 x = datetime.datetime.now()
@@ -52,7 +52,7 @@ The `datetime()` class requires three parameters to create a date: year, month, 
 
 Create a date object:
 
-```
+```python
 import datetime
 
 x = datetime.datetime(2020, 5, 17)
@@ -72,7 +72,7 @@ The method is called `strftime()`, and takes one parameter, `format`, to specify
 
 Display the name of the month:
 
-```
+```python
 import datetime
 
 x = datetime.datetime(2018, 6, 1)
