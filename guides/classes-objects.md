@@ -156,7 +156,7 @@ p1.myfunc()
 
 You can modify properties on object like this
 
-```
+```python
 p1.age = 40
 ```
 
